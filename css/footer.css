@@ -1,0 +1,20 @@
+footer {
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+
+    background-color:  rgb(0, 0, 0);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+footer h2 {
+color:rgb(255, 255, 255);
+grid-column: 1/-1;
+grid-row: 2/3;
+
+text-align:center;
+
+}
