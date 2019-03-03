@@ -1,8 +1,27 @@
-{"art":[
-    {"title":"End Of Evangelion ","year":"1997","instruktør":"Hideaki Anno, Kazuya Tsurumaki","land":"Japan","censur":"16","ranking":"100/100"},
-    {"title":"Your Name","year":"2016","instruktør":"Makoto Shinkai","land":"Japan","censur":"12","ranking":"88/100"},
-    {"title":"K-on: The Movie","year":"2011","instruktør":"Naoko Yamada","land":"Japan","censur":"none","ranking":"87/100"}
-]}
-
-    
-    
+{
+    "art": [{
+            "title": "Irami's Profile",
+            "updated": "09-02-2019",
+            "imgfilnavn": "iramiA.jpg",
+            "comment": "Just an old character, i drew for old times sake. hope you like it ^^",
+            "score": "***",
+            "character": "Irami"
+        },
+        {
+            "title": "Smile of an angle",
+            "updated": "11-02-2019",
+            "imgfilnavn": "venusA.jpg",
+            "comment": "Found new inspiration for Venus. as i am currently writing a story about her :D yay",
+            "score": "******",
+            "character": "Venus"
+        },
+        {
+            "title": "Morning",
+            "updated": "15-02-2019",
+            "imgfilnavn": "venusB.jpg",
+            "comment": "Another Venus drawing, the story keeps on moving forward",
+            "score": "****",
+            "character": "Venus"
+        }
+    ]
+}

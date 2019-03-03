@@ -1,0 +1,108 @@
+#portfolioheader {
+
+    margin: 30px;
+}
+
+#gallery {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+
+    width: 75%;
+    margin: 0 auto;
+}
+
+.galleryimg {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    overflow: hidden;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+
+.galleryimg img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.galleryimg figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+    padding: 10px;
+    border-radius: 55px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+
+
+.galleryimg:hover figcaption {
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 55px;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+
+.galleryimg figcaption span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+#newmarkerid {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+    padding: 10px;
+    font-size: 20px;
+
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border-radius: 55px;
+    animation: fade 2.5s infinite;
+}
+
+
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

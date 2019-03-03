@@ -117,3 +117,8 @@ main #right #newart #artcontentdiv #tittlediv #newimgtitle{
     font-style: italic; 
     
 }
+
+
+main #right a {
+    text-decoration: none;
+}
